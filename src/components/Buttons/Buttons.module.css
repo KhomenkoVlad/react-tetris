@@ -1,0 +1,26 @@
+.buttons {
+  width: fit-content;
+  margin: 1dvh auto 0;
+  height: 13dvh;
+}
+
+.button {
+  font-size: 3dvh;
+  margin: 1dvh;
+  aspect-ratio: 2;
+  height: 5dvh;
+  padding: 0;
+  display: flex;
+}
+
+.button > svg {
+  height: 3dvh;
+  width: auto;
+  display: block;
+  margin: auto;
+}
+
+.upButton {
+  margin: auto;
+  display: block;
+}

@@ -1,0 +1,36 @@
+.info {
+  display: flex;
+  justify-content: space-between;
+  height: 12dvh;
+  margin-bottom: 1dvh;
+  font-size: 2.5dvh;
+}
+
+.status {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.status > div {
+  padding: 0;
+}
+.status > button {
+  font-size: inherit;
+}
+
+.nextBlock {
+  border: 2px solid black;
+  display: flex;
+  aspect-ratio: 1;
+}
+
+.nextGrid {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tile {
+  aspect-ratio: 1;
+}
